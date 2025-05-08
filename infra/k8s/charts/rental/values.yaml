@@ -1,0 +1,4 @@
+imageRegistry: ghcr.io/yourname
+imageTag: latest
+backend:
+  replicas: 1

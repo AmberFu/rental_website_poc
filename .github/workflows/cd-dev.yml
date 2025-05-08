@@ -1,0 +1,9 @@
+name: CD-Dev
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy deploy
+        run: echo "deploying to dev..."
